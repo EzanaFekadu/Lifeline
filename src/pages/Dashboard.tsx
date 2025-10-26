@@ -135,7 +135,10 @@ export const Dashboard = () => {
 
       <div className="emergency-trigger-section">
         <button className="btn-emergency" onClick={handleEmergency}>
-          EMERGENCY
+          <center>
+              EMERGENCY        
+          </center>
+
         </button>
         <p className="emergency-text">
           Press this button in case of emergency to display your medical information
